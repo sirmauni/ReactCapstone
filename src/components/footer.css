@@ -1,0 +1,35 @@
+/*
+    Footer.css
+*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+    background-color: #495E57;
+
+    grid-area: footer;
+}
+
+footer > img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+footer > ul  {
+    list-style-type: none;
+    color: #F4CE14;
+}
+
+footer > ul > li {
+    margin-bottom: 5px;
+}
+
+footer > ul > li > a:link {
+    text-decoration: none;
+}
+
+footer > ul > li > a:link, a:visited, a:active, a:hover {
+    color: white;
+}

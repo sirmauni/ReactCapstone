@@ -1,0 +1,36 @@
+/* nav css */
+nav {
+    padding: 20px;
+
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img.classLogo {
+    width: 30%;
+}
+
+ul.navMenu {
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul.navMenu > li {
+    display: flex;
+    align-items: center;
+    font-family: 'inter';
+    font-weight: bold;
+}
+
+ul.navMenu > li > a:link {
+    text-decoration: none;
+}
+
+ul.navMenu > li > a:link, a:visited, a:active, a:hover {
+    color: black;
+}
