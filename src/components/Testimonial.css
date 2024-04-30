@@ -4,8 +4,8 @@ article.testimonial {
     width: calc(30% - 40px);
     min-width: 300px;
     margin: auto;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     background-color: #EDEFEE;
     padding: 20px;
     border-radius: 20px;

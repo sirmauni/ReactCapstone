@@ -7,9 +7,9 @@ class Nav extends React.Component {
     render(props) {
         return (
             <nav>
-                <img class="classLogo" src={logo} alt="logo" />
-                <ul class="navMenu">
-                    <li><a href="/">Home</a></li>
+                <img className="classLogo" src={logo} alt="logo" />
+                <ul className="navMenu">
+                    <li><a href="/index">Home</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/menu">Menu</a></li>
                     <li><a href="/reservations">Reservations</a></li>

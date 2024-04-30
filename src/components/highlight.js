@@ -1,7 +1,7 @@
 // Highlight.js
 import React from 'react';
 import './highlight.css';
-import brochetta from '../images/brochetta.jpg';
+import Bruschetta from '../images/brochetta.jpg';
 import greeksalad from '../images/greeksalad.jpg';
 import lemondessert from '../images/lemondessert.jpg';
 import basket from '../images/basket.svg';
@@ -21,8 +21,8 @@ class Highlight extends React.Component {
             };
         } else if(this.highlightNum == 2) {
             var highlightData = {
-                image: brochetta,
-                name: "brochetta",
+                image: Bruschetta,
+                name: "Bruschetta",
                 description: "Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.",
             };
         } else {
@@ -34,7 +34,7 @@ class Highlight extends React.Component {
         }
 
         return (
-            <article class="highlight">
+            <article className="highlight">
                 <img className="highlightImage" src={highlightData.image} alt="Salad"></img>
                 <h3 className="highlightHeader">{highlightData.name}</h3>
                 <p className="highlightDescription">{highlightData.description}</p>

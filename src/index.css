@@ -4,12 +4,15 @@
 }
 html {
   width: 100vw;
+  min-width: 100vw;
+
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  margin: 0;
-  width: 100%;
-  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
   font-family: 'inter';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
