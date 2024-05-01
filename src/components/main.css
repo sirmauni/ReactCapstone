@@ -349,7 +349,7 @@ section.about > img {
 /* Other screens view */
 @media screen and (min-width: 1080px) {
     main {
-        grid-template-rows: auto minmax(400px, auto) minmax(300px, 300px) minmax(300px, 400px);
+        grid-template-rows: auto minmax(400px, auto) minmax(300px, auto) minmax(300px, 400px);
     }
     section {
         padding: 40px;

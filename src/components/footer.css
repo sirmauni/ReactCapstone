@@ -37,7 +37,7 @@ footer > ul > li > a:link {
     text-decoration: none;
 }
 
-footer > ul > li > a:link, a:visited, a:active, a:hover {
+footer > ul > li > a:link, footer > ul > li > a:visited, footer > ul > li > a:active, footer > ul > li > a:hover {
     color: white;
 }
 
