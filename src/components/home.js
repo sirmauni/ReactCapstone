@@ -2,13 +2,13 @@
 import React from 'react';
 import Highlight from './highlight.js';
 import Testimonial from './Testimonial.js';
-//import './main.css';
+import './home.css';
 import heroImage from '../images/restauranfood.jpg';
 
 class Home extends React.Component {
     render(props) {
         return (
-            <>
+            <main className="home">
                 <section className="hero oddSection">
                     <article>
                         <h2>Little Lemon</h2>
@@ -16,7 +16,7 @@ class Home extends React.Component {
                         <p>We are a family owned Mediterranean restaurant,
                             focused on traditional
                             recipes served with a modern twist.</p>
-                        <button>Reserve Table</button>
+                        <a href="/reservations">Reserve Table</a>
                     </article>
                     <img src={heroImage} alt="restaurant food"/>
                 </section>
@@ -49,7 +49,7 @@ class Home extends React.Component {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </article>
                 </section>
-            </>
+            </main>
         );
     }
 }
