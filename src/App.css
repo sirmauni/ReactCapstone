@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+div#root {
+  width: 100vw;
+  display: grid;
+  grid-template-rows: minmax(auto, auto) minmax(600px, auto) minmax(400px, auto);
+  grid-template-areas: "nav"
+                        "main"
+                        "footer";
+}
+
+/*
+div#root {
+  display: grid;
+  grid-template-rows: minmax(100px, auto) minmax(600px, auto) minmax(400px, auto);
+  grid-template-areas: "nav"
+                        "main"
+                        "footer";
+}
+*/
